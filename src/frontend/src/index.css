@@ -1,0 +1,26 @@
+@import "~bootstrap";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Code Pro', monospace, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #11162B;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container.header{
+  position: relative;
+}
+
+.container .mouse{
+  width: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
